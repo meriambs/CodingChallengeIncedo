@@ -15,24 +15,24 @@ To get started with this application, follow these steps:
 
 1. Clone this repository to your local machine:
 ```bash
- git clone https://github.com/meriambs/show_houssem-.git  
+ git clone https://github.com/meriambs/CodingChallengeIncedo.git 
 ```
 
 2. Install dependencies by running `npm install`.
 ```bash
- cd show_houssem
+ cd CodingChallengeIncedo
  npm install
 ```
 3. Create a `.env` file in the root of the project directory and add your Last.fm API key as `LASTFM_API_KEY=your-api-key`.
 ```bash
-  /show_houssem/ touch .env
+  /CodingChallengeIncedo/ touch .env
   LASTFM_API_KEY=api-lastfm-api-key-from-last.fm
 
 ```
 
 4. Run the application by running `npm start`.
 ```bash
-  /show_houssem/npm start
+  /CodingChallengeIncedo/npm start
 ```
 5. Open your web browser and go to `http://localhost:3004/artists/<artist-name>` where `<artist-name>` is the name of the artist you want to search for. The application will return a CSV file with the search results.
 
